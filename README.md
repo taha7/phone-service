@@ -30,18 +30,18 @@ Run the database migrations (**Set the database connection in .env before migrat
 
     php artisan migrate
 
-## Database seeding
 Run the database seeder and you're done
 
     php artisan db:seed
 
+Compile javascript files
+
+    npm run dev
+    
 Start the local development server
 
     php artisan serve
 
-Compile javascript files
-
-    npm run dev
 
 You can now access the page at http://localhost:8000/phones
  
