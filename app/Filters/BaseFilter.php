@@ -15,6 +15,9 @@ class BaseFilter
         $this->request = $request;
     }
 
+    /**
+     * Compare allowed filters with request and apply the filters
+     */
     public function apply(Builder $builder, array $filters)
     {
         foreach ($filters as $key => $filter) {

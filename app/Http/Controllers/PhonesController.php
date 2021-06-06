@@ -21,6 +21,9 @@ class PhonesController extends Controller
         return view('phones.index');
     }
 
+    /**
+     * get allowed filters for phone list
+     */
     private function getFilters()
     {
         return [
